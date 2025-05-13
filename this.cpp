@@ -11,3 +11,10 @@ class buku
         return this -> judul;  // return variable judul
     }
 };
+
+int main()
+{
+    buku bukunya;
+    cout << bukunya.setget("matematika");
+    return 0;
+}
